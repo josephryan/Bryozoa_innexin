@@ -98,7 +98,9 @@ Yen MR, Saier Jr MH. Gap junctional proteins of animals: the innexin/pannexin su
 ## APPENDIX
 
 Version&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Date&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Significant Revisions  
+
 1.1   May 11, 2022  Added 2.31 and 2.32 (removed potential contaminents (4 bryozoan sequences that grouped in a large clade that included no other bryozoans, removed redundant bryozoan sequences/isoforms; reran the tree)
+
 1.2  
 1.3  
 1.4  
