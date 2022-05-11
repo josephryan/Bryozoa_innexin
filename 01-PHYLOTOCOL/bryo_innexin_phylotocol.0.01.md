@@ -63,6 +63,18 @@ hmm2aln.pl --fasta_dir=dir --hmm=PF00876.hmm --name=hmm2aln.output --threads=48 
 iqtree-omp -s [alignment] -nt AUTO -bb 1000 -m TEST -pre [output prefix] 
 ```
 
+#### 2.31 Based on iqtree, rename bryozoan sequences according to family, and remove redundant and potential contaminant sequences
+
+```
+rename_and_remove.pl
+```
+
+#### 2.32 Rerun maximum likelihood tree with new 
+
+```
+iqtree-omp -s [renamed alignment] -nt AUTO -bb 1000 -m TEST -pre [output prefix] 
+```
+
 #### 2.4 Generate a Bayesian tree
 
 ```
@@ -86,7 +98,7 @@ Yen MR, Saier Jr MH. Gap junctional proteins of animals: the innexin/pannexin su
 ## APPENDIX
 
 Version&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Date&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Significant Revisions  
-1.1  
+1.1   May 11, 2022  Added 2.31 and 2.32 (removed potential contaminents (4 bryozoan sequences that grouped in a large clade that included no other bryozoans, removed redundant bryozoan sequences/isoforms; reran the tree)
 1.2  
 1.3  
 1.4  
