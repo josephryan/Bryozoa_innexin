@@ -84,7 +84,7 @@ prset aamodelpr = fixed(BEST_MODEL_FROM_IQ-TREE); lset rates=gamma;
 #### 2.5 Choose best tree to be the main figure based on the tree with best likelihood score
 
 ```
-raxmlHPC -p 12345 -m PROTGAMMA[best-fit_model] -s [aln file] -n [name]
+raxmlHPC -f N -z ml_mb.tre -m PROTGAMMA[best-fit_model] -s [aln file] -n [name]
 ```
 
 ## 3 WORK COMPLETED SO FAR WITH DATES  
@@ -101,6 +101,6 @@ Version&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Date&nbsp
 
 1.1   May 11, 2022  Added 2.31 and 2.32 (removed potential contaminents (4 bryozoan sequences that grouped in a large clade that included no other bryozoans, removed redundant bryozoan sequences/isoforms; reran the tree)
 
-1.2  
+1.2   Jul 14, 2022  Updated the command to compare 2 trees (2.5). The wrong command was given prior.
 1.3  
 1.4  
